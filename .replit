@@ -1,3 +1,3 @@
-run = "nim compile --run src/main.nim"
+run = "nim compile --run -o:bin/client src/client.nim"
 
-entrypoint = "main.nim"
+entrypoint = "client.nim"
